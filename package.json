@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "sql.js": "^1.11.0",
     "vue": "^2.6.14"
   },
   "devDependencies": {
@@ -17,9 +18,12 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "browserify-fs": "^1.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "path-browserify": "^1.0.1",
+    "vue-template-compiler": "^2.6.14",
+    "worker-loader": "^3.0.8"
   },
   "eslintConfig": {
     "root": true,
@@ -39,5 +43,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "volta": {
+    "node": "16.20.2",
+    "yarn": "1.22.22"
+  }
 }
